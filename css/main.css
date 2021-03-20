@@ -1,0 +1,274 @@
+*,*:before,*:after{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+	color: #0f1e25;
+	font-size: 20px;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+}
+
+ h2, h3, h4 ,h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+
+.container { 
+	width: 1170px;
+	margin: 0 auto;
+} /*позиционирование по центру*/
+
+header {
+	background: url('../img/header-bg.jpg') no-repeat center top / cover; 
+	padding-bottom: 60px;
+
+}
+
+.logo {
+	height: 35px;
+	margin-right: 40px;
+}
+
+.header a {
+	color: #052f2e;
+}
+
+.nav {
+	display: flex;
+	padding-top: 57px;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+
+}
+
+.menu li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-right: 40px;
+	letter-spacing: 0.1em;
+}
+
+.block-reg {
+    margin-left: auto;
+}
+
+.block-reg a {
+	text-decoration: none;
+}
+
+.starting {
+	margin-left: 40px;
+	font-size: 90px;
+
+}
+.starting p {
+	padding: 0;
+	margin: 0;
+	padding-top: 10px;
+	
+}	
+
+.starting h1 {
+	margin-top: -70px;
+}
+
+.btn {
+	display: block;
+	font-size: 37px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 2px solid #c8e690;
+	width: 410px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	
+}
+.starting a {
+	color: #c8e690;
+}
+
+img{
+
+}
+
+
+.about {
+	background-image: linear-gradient(#0f1e25 , #c8e690);
+	background-color: #c8e690; 
+	padding: 50px 0px;	
+
+}
+
+
+.sliders {
+	position: relative;
+	padding: 0 60px;
+
+}
+.sliders .slick-arrow {
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	font-size: 0;
+	margin: -30px 0 0 0;
+	width: 30px;
+	height: 60px;
+
+
+}
+.sliders .slick-arrow.slick-prev{
+	background: url('../img/left-right.png') 0 0 / 100% no-repeat;
+	left: 0;
+}
+.sliders .slick-arrow.slick-next{
+	background: url('../img/left-right.png') 0 0 / 100% no-repeat;
+	right: 0; 
+	transform: rotate(180deg);
+	margin: -60px 0 0 0;
+}
+
+.sliders .slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.sliders .slick-dots li{
+	list-style: none;
+	margin: 0 10px;
+}
+.sliders .slick-dots li button{
+	font-size: 0;
+	width: 10px;
+	height: 10px;
+	background-color: #0f1e25;
+	border-radius: 50%;
+	opacity: 0.3;
+}
+
+.sliders .slick-dots li.slick-active button{
+	background: #0f1e25;
+	border: 1px solid #0f1e25;
+	opacity: 0.8;
+
+}
+
+.slider{
+	padding-left: 10px;
+	width: 300px;
+	height: 300px;
+	border-radius: 15%;
+	filter: grayscale(20%) sepia(40%);
+
+	
+ 
+ 
+}
+
+.slidersbig{
+	margin: 0 auto;
+	 width: 500px;
+	 height: 500px;
+	 margin-bottom: 50px;
+}
+
+.sliderbig{
+	display: flex;
+	 width: 500px;
+	 height: 500px;
+
+}
+/* Ограничивающая оболочка */
+.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+	align-items: flex-start;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+}
+
+.button .btn {
+	margin-top: 15px; 
+	width: 100%;
+	border: 2px solid #052f2e;
+	margin-right: 10px;
+}
+
+.button .btn:last-child {
+ margin-right: 0;
+}
+.button a {
+	line-height: 40px;
+}
+
+.Allblocks {
+	display: flex;
+	align-content: flex-end;
+}
+
+.description {
+	padding-left: 10px;
+}
+
+.game {
+	padding: 0.7em 0em 0em 0.5em;
+}
+
+.game1 {
+	display: flex;
+}
+.block {
+
+background-image:  linear-gradient( to right, rgba(4, 41, 47, 0.3), transparent );
+
+
+}
+.block p {
+	margin-left: auto;
+}
+
+.block:not(:first-child){
+	margin-top: 10px;
+	display: flex;
+}
+
+.dimonstr {
+	margin: 0;
+	padding: 0;
+}
+
+.dimonstr img {
+	width: 100px;
+	height: 180px;
+}
+
